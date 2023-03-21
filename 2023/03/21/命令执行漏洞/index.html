@@ -4,22 +4,22 @@
   <meta charset="utf-8">
   
   
-  <title>命令执行漏洞 | Hexo</title>
+  <title>命令执行漏洞 | 小成成的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="运算符 ||  逻辑或； ls||cat;命令1或命令2  &amp;&amp;  逻辑与； ls&amp;&amp;cat;命令1与命令2  &amp;  并行 ls&amp;cat;命令1跟命令2并行运行，互不干扰；相当于开两个命令窗口运行两个命令；  |  管道运算符（先后进行） ls|cat;先执行命令1再执行命令2，命令1的输出作为命令2的输入； 过滤绕过 空格绕过 空格过滤绕过：&amp;lt">
 <meta property="og:type" content="article">
 <meta property="og:title" content="命令执行漏洞">
 <meta property="og:url" content="http://example.com/2023/03/21/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="小成成的个人博客">
 <meta property="og:description" content="运算符 ||  逻辑或； ls||cat;命令1或命令2  &amp;&amp;  逻辑与； ls&amp;&amp;cat;命令1与命令2  &amp;  并行 ls&amp;cat;命令1跟命令2并行运行，互不干扰；相当于开两个命令窗口运行两个命令；  |  管道运算符（先后进行） ls|cat;先执行命令1再执行命令2，命令1的输出作为命令2的输入； 过滤绕过 空格绕过 空格过滤绕过：&amp;lt">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-03-21T14:36:17.000Z">
 <meta property="article:modified_time" content="2023-03-21T14:39:26.093Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="小成成">
 <meta property="article:tag" content="命令执行 ctf">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="小成成的个人博客" type="application/atom+xml">
   
   
     <link rel="shortcut icon" href="/favicon.png">
@@ -47,7 +47,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">小成成的个人博客</a>
       </h1>
       
     </div>
@@ -64,10 +64,10 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
       </div>
     </div>
   </div>
@@ -265,7 +265,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/21/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/" data-id="clfid3kgc000058w31c0d6vez" data-title="命令执行漏洞" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/03/21/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/" data-id="clfid3kgc000058w31c0d6vez" data-title="命令执行漏洞" class="article-share-link">Teilen</a>
       
       
       
@@ -279,7 +279,7 @@
   
   
     <a href="/2023/03/21/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Älter</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -317,9 +317,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">三月 2023</a></li></ul>
     </div>
   </div>
 
@@ -327,7 +327,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
         
@@ -352,7 +352,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2023 John Doe<br>
+      &copy; 2023 小成成<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
